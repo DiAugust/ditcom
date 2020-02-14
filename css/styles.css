@@ -16,6 +16,10 @@ body {
     color: white;
 }
 
+.black-text {
+    color: black;
+}
+
 .green-button {
     background-color: #48D1B6;
     width: 200px;
@@ -78,4 +82,68 @@ nav {
     align-items: center;
     justify-content: center;
     margin-top: -260px;
+}
+
+#icons-decoration {
+    width: 30px;
+    height: 30px;
+}
+
+.icon-1 {
+    position: absolute;
+    top: 65%;
+    left: 33%;
+}
+
+.icon-2 {
+    position: absolute;
+    top: 75%;
+    left: 21%;
+}
+
+.icon-3 {
+    position: absolute;
+    top: 86%;
+    left: 28%;
+}
+
+.icon-4 {
+    position: absolute;
+    top: 93%;
+    left: 15%;
+}
+
+.icon-5 {
+    position: absolute;
+    top: 65%;
+    left: 70%;
+}
+
+.icon-6 {
+    position: absolute;
+    top: 88%;
+    left: 66%;
+}
+
+.icon-7 {
+    position: absolute;
+    top: 76%;
+    left: 80%;
+}
+
+.icon-8 {
+    position: absolute;
+    top: 93vh;
+    left: 88vw;
+}
+
+#screen-2 {
+    background-color: white;
+    height: 180px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
 }
