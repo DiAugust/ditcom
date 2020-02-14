@@ -17,7 +17,19 @@ body {
 }
 
 .black-text {
-    color: black;
+    color: black    ;
+}
+
+.thin-font {
+    font-weight: 100;
+}
+
+.regular-font {
+    font-weight: 400;
+}
+
+.bold-font {
+    font-weight: 700;
 }
 
 .green-button {
@@ -139,11 +151,38 @@ nav {
 
 #screen-2 {
     background-color: white;
-    height: 180px;
+    height: 900px;
     width: 100vw;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+    justify-content: start;
+}
+
+#section-services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#square-350 {
+    width: 350px;
+    height: 350px;
+    background-color: #EBEBEB;
+    display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+#text-services {
+    width: 476px;
+    height: 167px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
 }
