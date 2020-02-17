@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Ditcom Group</title>
 </head>
 <body>
@@ -33,7 +35,8 @@
         </button>
     </div>
     <div id="image-logo">
-    <img src="src/logo.png">
+    <img data-aos="fade-up"
+    data-aos-anchor-placement="top-center" src="src/logo.png">
     <span>
         <img id="icons-decoration" class="icon-1" src="src/icon-sorrindo.png" alt="icone sorrindo">
         <img id="icons-decoration" class="icon-2" src="src/icon-heart.png" alt="icone sorrindo">
@@ -51,7 +54,7 @@
         <h1 class="green-text">SERVIÇOS</h1>
         <br>
         <br>
-        <section id="section-services">
+        <section data-aos="fade-left" id="section-services">
             <div id="square-350">
                 <img width="150" src="src/tactics.png" alt="imagem retratando estratégias num papel">
             </div>
@@ -65,7 +68,7 @@
                     Quisque velit nisi, pretium ut lacinia in, elementum id enim. </p>
             </div>
         </section>
-        <section id="section-services">
+        <section data-aos="fade-right" id="section-services">
             <div id="text-services">
                 <h1 class="black-text">ANALYTICS</h1>
                 <p class="thin-font">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. 
@@ -80,7 +83,7 @@
             </div>
         </section>
     </div>
-    <div id="screen-3">
+    <div data-aos="fade-down" id="screen-3">
         <h1 class="black-text">SOBRE</h1>  
         <br>         
         <br>
@@ -102,13 +105,14 @@
         <h4 class="black-text" style="margin-top: 20px;">NOSSOS</h4>
         <h1 class="green-text">TRABALHOS</h1>
     </div>
-    <div id="screen-works">
+    <div data-aos="zoom-in-up" id="screen-works">
         <div id="square-works">IMAGE WITH LINK HERE</div>
         <div id="square-works">IMAGE WITH LINK HERE</div>
         <div id="square-works">IMAGE WITH LINK HERE</div>
         <div id="square-works">IMAGE WITH LINK HERE</div>
     </div>
-    <div id="screen-5">
+    <div data-aos="fade-up"
+    data-aos-duration="2000" id="screen-5">
         <div id="form-title">
             <h3>ENTRE EM</h4>
             <h1 style="font-size: 44px;">CONTATO</h1>
@@ -140,4 +144,7 @@
     </footer>
 </body>
 <script src="js/main.js"></script>
+<script>
+    AOS.init();
+  </script>
 </html>
