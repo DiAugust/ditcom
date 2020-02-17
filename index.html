@@ -14,10 +14,10 @@
         <h1 class="green-text" id="nav-logo-1">DIT<strong>COM</strong></h1>
         <ul class="green-text" id="nav-ul">
             <li>
-                <a id="nav-link">Serviços</a>
-                <a id="nav-link">Sobre</a>
-                <a id="nav-link">Trabalhos</a>
-                <a id="nav-link">Contato</a>
+                <a id="nav-link" href="#screen-2">Serviços</a>
+                <a id="nav-link" href="#screen-3">Sobre</a>
+                <a id="nav-link" href="#screen-4">Trabalhos</a>
+                <a id="nav-link" href="#screen-5">Contato</a>
             </li>
         </ul>
     </nav>
@@ -28,8 +28,8 @@
         <p class="blank-text" style="margin-left: 20px; margin-right: 20px; text-align: center">em hosting, data center e cloud, com infraestrutura própria no Brasil e EUA.</p>
         <br>
         <br>
-        <button class="green-button blank-text">
-            SAIBA MAIS
+        <button class="green-button">
+            <a href="#screen-5" class="blank-text">SAIBA MAIS</a>
         </button>
     </div>
     <div id="image-logo">
@@ -108,23 +108,36 @@
         <div id="square-works">IMAGE WITH LINK HERE</div>
         <div id="square-works">IMAGE WITH LINK HERE</div>
     </div>
-    <div id="form">
-        <div id="form-texto">
-        <h3>ENTRE EM</h4>
-        <h1 style="font-size: 44px;">CONTATO</h1>
-        <h4 style="font-size: 18px;">Por favor, preencha o formulário abaixo:</h4>
+    <div id="screen-5">
+        <div id="form-title">
+            <h3>ENTRE EM</h4>
+            <h1 style="font-size: 44px;">CONTATO</h1>
+            <h4 style="font-size: 18px;">Por favor, preencha o formulário abaixo:</h4>
         </div>
-        <div>
-        <form action="" method="POST enctype="multipart/form-data">
-            <input name="none" type="text" required="required" placeholder="Nome *"> 
-        </form>
-        </div>
-        <div>
-        <form action="" method="POST>
-            <input name="none" type="text" required="required" placeholder="Email *"> 
-        </form>
+        <div id="form-form">
+            <form id="form-flex" name="formulario" action="enviar.php" method="POST">
+                <input id="form-input" type="text" name="nome" placeholder=" Nome *" required>
+                <input id="form-input" type="email" name="email" placeholder=" Email *" required>
+                <input id="form-input" type="tel" name="telefone" placeholder=" Telefone *" required>
+                <input id="form-submit" type="submit" value="Cadastre-se">
+            </form>
         </div>
     </div>
+    <footer id="footer">
+        <div id="social-icons">
+            <a href="#"><img class="icon-size" src="src/icon-linkedin.png" alt="linkedin logo"></a>
+            <a href="#"><img class="icon-size" src="src/icon-twitter.png" alt="twitter logo"></a>
+            <a href="#"><img class="icon-size" src="src/icon-facebook.png" alt="facebook logo"></a>
+        </div>
+
+        <div id="endereco">
+            <h4>E-mail: info@ditcom.com   |   Tel: (11) 0000-0000   |   Av. Bernardino de Campos, 98 São Paulo, SP</h4>
+        </div>
+
+        <div id="arrow-up">
+            <a href="#"><img id="arrow-up-size" src="src/icon-arrow-up.png" alt="simbole para subir a pagina"></a>
+        </div>
+    </footer>
 </body>
 <script src="js/main.js"></script>
 </html>
