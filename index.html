@@ -12,7 +12,7 @@
 <body>
     <div id="top-bar">
     </div>
-    <nav>
+    <nav id="nav-desktop">
         <h1 class="green-text" id="nav-logo-1">DIT<strong>COM</strong></h1>
         <ul class="green-text" id="nav-ul">
             <li>
@@ -22,6 +22,10 @@
                 <a id="nav-link" href="#screen-5">Contato</a>
             </li>
         </ul>
+    </nav>
+    <nav id="nav-mobile">
+        <h1 class="green-text" id="nav-logo-1">DIT<strong>COM</strong></h1>
+        <img id="icon-mobile" src="src/ico-mobile.png" alt="Icone mobile">
     </nav>
     <div id="screen-1">
         <h1 class="blank-text" id="main-logo" style="margin-top: -200px;">DIT<strong>COM</strong></h1>
@@ -37,7 +41,7 @@
     <div id="image-logo">
     <img data-aos="fade-up"
     data-aos-anchor-placement="top-center" src="src/logo.png">
-    <span>
+    <span id="icons-on-logo">
         <img id="icons-decoration" class="icon-1" src="src/icon-sorrindo.png" alt="icone sorrindo">
         <img id="icons-decoration" class="icon-2" src="src/icon-heart.png" alt="icone sorrindo">
         <img id="icons-decoration" class="icon-3" src="src/icon-share.png" alt="icone sorrindo">    
@@ -54,13 +58,13 @@
         <h1 class="green-text">SERVIÇOS</h1>
         <br>
         <br>
-        <section data-aos="fade-left" id="section-services">
+        <section data-aos="fade-left" id="section-services-1">
             <div id="square-350">
                 <img width="150" src="src/tactics.png" alt="imagem retratando estratégias num papel">
             </div>
             <div id="text-services">
                 <h1 class="black-text">ESTRATÉGIA</h1>
-                <p class="thin-font">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. 
+                <p id="p-1" class="thin-font">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. 
                     Cras ultricies ligula sed magna dictum porta. 
                     Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
                     Donec sollicitudin molestie malesuada. 
@@ -68,10 +72,10 @@
                     Quisque velit nisi, pretium ut lacinia in, elementum id enim. </p>
             </div>
         </section>
-        <section data-aos="fade-right" id="section-services">
+        <section data-aos="fade-right" id="section-services-2">
             <div id="text-services">
                 <h1 class="black-text">ANALYTICS</h1>
-                <p class="thin-font">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. 
+                <p id="p-2" class="thin-font">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. 
                     Cras ultricies ligula sed magna dictum porta. 
                     Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
                     Donec sollicitudin molestie malesuada. 
@@ -82,12 +86,20 @@
                 <img width="150" src="src/analytics.png" alt="imagem retratando estratégias num papel">
             </div>
         </section>
+        </section>
     </div>
     <div data-aos="fade-down" id="screen-3">
-        <h1 class="black-text">SOBRE</h1>  
+        <h1 class="green-text">SOBRE</h1>  
         <br>         
         <br>
         <img src="src/frame.png" alt="imagem de vários servidores">
+        <p style="padding-right: 50px; padding-left: 50px; padding-top: 60px;">Cras ultricies ligula sed magna dictum porta. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. 
+            Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. 
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
+            <br>
+        <p style="padding-right: 50px; padding-left: 50px;">Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim. 
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec sollicitudin molestie malesuada. 
+            Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
     </div>
     <div id="square-about">
         <p style="padding-right: 50px; padding-left: 50px; padding-top: 60px;">Cras ultricies ligula sed magna dictum porta. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. 
